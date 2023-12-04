@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Day Dream Creations</title>
+            <style>
+
+
+body {
+    background-image: url("https://cdn.pixabay.com/photo/2015/08/27/03/33/light-909409_640.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.4); 
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border: 3px solid #363636;
+    margin-left: 150px;
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    font-size: 50px; 
+    border-radius: 10px;
+}
+
+.item {
+    text-align: center;
+    margin-bottom: -5px;
+    font-size: 20px
+}a
+img {
+    display: block;
+    height: 500px;
+    width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: auto;
+}
+h2 {
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.4); 
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border: 3px solid #363636;
+    margin-left: 150px;
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px; 
+    border-radius: 10px;
+}
+hr {
+    height: 0.5px;
+}
+p {
+    font-size: 20px;
+    text-align: center;
+}
+.destinations, .themes, .cuisines {
+    font-size: 60px;
+    font-family: Arial;
+}
+th,td{
+    border:2px solid;
+}
+table{
+    width: 60%;
+    height: 300px;
+    padding: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    border:3px solid;
+    background-color: rgba(0, 0, 0, 0.401);
+}
+td{
+    text-align: center;
+    width: 30%;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.171);
+    color: white;
+    border-color: rgba(0, 0, 0);
+    height: 40px;
+}
+.register-button {
+    background-color: rgb(209, 163, 138);
+    border-radius: 15px;
+    height: 50px;
+    width: 100px;
+}
+.image-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.25);
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    
+}
+
+.image {
+     border-radius: 20px;
+}
+.bg-image {
+    background-image: url("https://media.istockphoto.com/id/1633797706/photo/wedding-shoes-champagne-glasses.jpg?s=612x612&w=0&k=20&c=KgL9RVq5lmnVHYOLbHmqBpVmZdreXiwSkupC_efWjog=");
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bg-text {
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.4); 
+    color: rgb(250, 236, 215);
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    width: 600px;
+  }
+  .button {
+            background-color:antiquewhite;
+            border: none;
+            background-color: rgba(51, 51, 51, 0.16);
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin-left: 690px;
+            cursor: pointer;
+            border-radius: 10px;
+            border: 1px solid rgb(0, 0, 0);
+}
+p {
+    text-align: center;
+    font-style: italic;
+
+}
+.back-button {
+            border: none;
+            background-color: rgba(255, 255, 255, 0.5);
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+           margin-bottom: 130px;
+            cursor: pointer;
+            border-radius: 10px;
+            border: 1px solid rgb(0, 0, 0); 
+}
+.back-button:hover {
+    background-color: rgba(255, 255, 255, 0.573);
+}
+.button:hover {
+    background-color: rgba(255, 255, 255, 0.573);
+}
+.back {
+  display: flex;
+}
+.whole {
+  background-size: cover;
+}
+html, body {
+  height: 600%;
+}
+
+.full-height {
+  height: 600%;
+}
+            </style>
+        </head>
+        <body>
+            <main class="whole">
+                <div class="full-height">
+            <div class="back">
+            <a href="Sixthpage1.html"><button class="back-button" >Back</button></a>
+            <h1>Budget</h1></div>
+            <hr>
+            <h2 style="text-align:center;"><b>DESTINATIONS</b></h2>
+            <table>
+                <tr>
+                    <td style = "font-size: 25px"><b>Place</b></td>
+                    <td style = "font-size: 25px"><b>Price(/day)</b></td>
+                </tr>
+                <tr>
+                    <td>Kerala, INDIA</td>
+                    <td>₹1.5lakhs - ₹5lakhs</td>
+                </tr>
+                <tr>
+                    <td>Goa, INDIA</td>
+                    <td>₹2lakhs - ₹6lakhs</td>
+                </tr>
+                <tr>
+                    <td>Jaipur, INDIA </td>
+                    <td>₹3lakhs - ₹8lakhs
+                    </td>
+                </tr>
+                <tr>
+                    <td>Maldives, INDIA</td>
+                    <td>₹5lakhs - ₹10lakhs
+                    </td>
+                </tr>
+                <tr>
+                    <td>Fiji</td>
+                    <td>₹20lakhs - ₹50lakhs</td>
+                </tr>
+                <tr>
+                    <td>Bali, INDONESIA</td>
+                    <td>₹30lakhs - ₹50lakhs</td>
+                </tr>
+                <tr>
+                    <td>Paris, FRANCE</td>
+                    <td>₹50lakhs - ₹1crore</td>
+                </tr>
+                <tr>
+                    <td>Phuket, THAILAND</td>
+                    <td>₹1crore - ₹2crore</td>
+                </tr>
+                <tr>
+                    <td>Kyoto, JAPAN</td>
+                    <td>₹1crore - ₹3crore
+                    </td>
+                </tr>
+                <tr>
+                    <td>Dubai, UAE</td>
+                    <td>₹1crore - ₹3crore</td>
+                </tr>
+                <tr>
+                    <td>Tulum, MEXICO</td>
+                    <td>₹1crore - ₹3crore</td>
+                </tr>
+                <tr>
+                    <td>Bora Bora, FRANCE</td>
+                    <td>₹1crore - ₹4crore</td>
+                </tr>
+                <tr>
+                    <td>Tuscany, ITALY</td>
+                    <td>₹1crore - ₹4crore</td>
+                </tr>
+                <tr>
+                    <td>Lake Como, ITALY</td>
+                    <td>₹1crore - ₹5crore
+                    </td>
+                </tr>
+                <tr>
+                    <td>Cacum, MEXICO</td>
+                    <td>₹1crore - ₹5crore
+                    </td>
+                </tr>
+                <tr>
+                    <td>Cape Town, AFRICA</td>
+                    <td>₹1crore - ₹5crore</td>
+                </tr>
+                <tr>
+                    <td>Santorini, GREECE</td>
+                    <td>₹1crore - ₹5crore</td>
+                </tr>
+                <tr>
+                    <td>Machu Pichu, PERU</td>
+                    <td>₹1crore - ₹6crore</td>
+                </tr>
+                <tr>
+                    <td>England, UK</td>
+                    <td>₹1crore - ₹6crore</td>
+                </tr>
+                <tr>
+                    <td>Barcellona, SPAIN</td>
+                    <td>₹1crore - ₹7crore</td>
+                </tr>
+                <tr>
+                    <td>Napa Valley, USA</td>
+                    <td>₹1crore - ₹7crore
+                    </td>
+                </tr>
+                <tr>
+                    <td>Hawaii, USA</td>
+                    <td>(₹5crore - ₹8crore)
+                    </td>
+                </tr>
+                <tr>
+                    <td>New York, USA</td>
+                    <td>₹1crore - ₹10crore
+                    </td>
+                </tr>
+                <tr>
+                    <td>CRUISE SHIP</td>
+                    <td>₹10crore - ₹15crore
+                    </td>
+                </tr>
+            </table>
+            <p>If needed to check the palces,<br>
+                click here!
+            </p>
+            <a href="Destinations.html"><button class="button" >Destination</button></a>
+            <hr>
+            <h2 style="text-align:center;"><b>THEMES</b></h2>
+            <table>
+                <tr>
+                    <td style = "font-size: 25px"><b>Theme</b></td>
+                    <td style = "font-size: 25px"><b>Price</b></td>
+                </tr>
+                <tr>
+                    <td>Lucknowi Theme</td>
+                    <td>₹2lakhs onwards</td>
+                </tr>
+                <tr>
+                    <td>Rajasthani Theme</td>
+                    <td>₹2 lakhs onwards</td>
+                </tr>
+                <tr>
+                    <td>Vintage Theme</td>
+                    <td>₹2 lakhs onwards</td>
+                </tr>
+                <tr>
+                    <td>Bollywood Theme</td>
+                    <td>₹3 lakh onwards</td>
+                </tr>
+                <tr>
+                    <td>Vegas Casino Theme</td>
+                    <td>₹3 lakhs onwards</td>
+                </tr>
+                <tr>
+                    <td>Indian Traditional Theme</td>
+                    <td>₹4 lakhs onwards</td>
+                </tr>
+                <tr>
+                    <td>Garden Theme
+                    </td>
+                    <td>₹4 lakhs onwards</td>
+                </tr>
+                <tr>
+                    <td>Outdoor Theme
+                    </td>
+                    <td>₹4 lakhs onwards</td>
+                </tr>
+                <tr>
+                    <td>Royal Theme
+                    </td>
+                    <td>₹5 lakhs onwards</td>
+                </tr>
+                <tr>
+                    <td>Beach wedding Theme
+                    </td>
+                    <td>₹5 lakhs onwards</td>
+                </tr>
+                <tr>
+                    <td>Golden Theme
+                    </td>
+                    <td>₹6 lakhs onwards</td>
+                </tr>
+                <tr>
+                    <td>Clasical Theme
+                    </td>
+                    <td>₹6 lakhs onwards</td>
+                </tr>
+            </table>
+            <p>If needed to check the Themes,<br>
+                click here!
+            </p>
+            <a href="Themes.html"><button class="button" >Themes</button></a>
+            <hr>
+            <br>
+            <h2 style="text-align:center;"><b>CUISINES</b></h2>
+            <table>
+                <tr>
+                    <td style = "font-size: 25px"><b>Cuisine</b></td>
+                    <td style = "font-size: 25px"><b>Price(/person)</b></td>
+                </tr>
+                <tr>
+                    <td>Mexican</td>
+                    <td>₹2340 - ₹3500</td>
+                </tr>
+                <tr>
+                    <td>Indian</td>
+                    <td>₹1000 - ₹2500</td>
+                </tr>
+                <tr>
+                    <td>Italian</td>
+                    <td>₹6300 - ₹10,000</td>
+                </tr>
+                <tr>
+                    <td>Japanese</td>
+                    <td>₹8000 - ₹12,000</td>
+                </tr>
+                <tr>
+                    <td>Thai</td>
+                    <td>₹5500 - ₹7,000</td>
+                </tr>
+                <tr>
+                    <td>Chinese</td>
+                    <td>₹4500 - ₹9,000</td>
+                </tr>
+                <tr> 
+                    <td>Chinese</td>
+                    <td>₹2540 - ₹9,000</td>
+                </tr>
+                <tr> 
+                    <td>Greek</td>
+                    <td>₹6500 - ₹11,000</td>
+                </tr>
+                <tr>  
+                    <td>American</td>
+                    <td>₹2300 - ₹11,000</td>
+                </tr>
+                <tr> 
+                    <td>French</td>
+                    <td>₹6500 - ₹8,000</td>
+                </tr>
+                <tr>  
+                    <td>korean</td>
+                    <td>₹2340 - ₹7,000</td>
+                </tr>
+                <tr>
+                    <td>Russian</td>
+                    <td>₹6500 - ₹10,000</td>
+                </tr>
+            </table>
+            <p>If needed to check the Cusines,<br>
+                click here!
+            </p>
+            <a href="Cusines.html"><button class="button" >Cusines</button></a>
+            <hr>
+            <p style ="font-size: 30px;">Prices are subject to change according to number of days and number of persons.</p>
+        </div>
+        </main>
+        </body>
+        </html>
