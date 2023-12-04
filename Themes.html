@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Day Dream Creations</title>
+            <style>
+                div.gallery {
+                 border: 1px solid #000000;
+                 border-radius: 15px;
+                 margin-bottom: 12px;
+                 background-color: rgb(0, 0, 0, o.75);
+               }
+               
+               div.gallery:hover {
+                 border: 1px solid #777;
+               }
+               
+               div.gallery img {
+                 width: 100%;
+                 height: 250px;
+                 border-top-right-radius: 15px;
+                 border-top-left-radius: 15px;
+               }
+               
+               div.desc {
+                 margin-top: -5px;
+                 padding: 15px;
+                 text-align: center;
+               
+               }
+               
+               * {
+                 box-sizing: border-box;
+               }
+               
+               .responsive {
+                 padding: 0 6px;
+                 float: left;
+                 width: 24.99999%;
+                 border-radius: 20px;
+               }
+               
+               @media only screen and (max-width: 700px) {
+                 .responsive {
+                   width: 49.99999%;
+                   margin: 6px 0;
+                 }
+               }
+               
+               @media only screen and (max-width: 500px) {
+                 .responsive {
+                   width: 100%;
+                 }
+               }
+               
+               .clearfix:after {
+                 content: "";
+                 display: table;
+                 clear: both;
+               }
+               h1 {
+                   background-color: rgb(0,0,0); 
+                   background-color: rgba(0,0,0, 0.4); 
+                   color: rgb(255, 255, 255);
+                   font-weight: bold;
+                   border: 3px solid #363636;
+                   margin-left: 150px;
+                   z-index: 2;
+                   width: 80%;
+                   padding: 20px;
+                   text-align: center;
+                   font-size: 30px; 
+                   border-radius: 10px;
+               }
+               .hr1 {
+                   color:white;
+                
+               }
+               .button {
+                           margin-left: 710px;
+                           border: none;
+                           background-color: rgba(0, 0, 0, 0.177);
+                           padding: 10px 20px;
+                           text-align: center;
+                           text-decoration: none;
+                           display: inline-block;
+                           font-size: 16px;
+                           border-radius: 10px;
+                           border: 1px solid rgb(0, 0, 0);
+                           cursor: pointer;
+                           transition: background-color 0.1s ease;
+        }
+        .button:hover {
+            background-color: rgba(255, 255, 255, 0.553);
+        }
+               
+               body {
+                   background-image: url("https://cdn.pixabay.com/photo/2015/08/27/03/33/light-909409_640.jpg");
+                   background-position: center;
+                   background-repeat: no-repeat;
+                   background-size: cover;
+               }
+               .desc {
+                   color: rgb(255, 255, 255);
+                   background-color: rgba(0, 0, 0, 0.75);
+                   font-size: 30px;
+                   background-color: rgb(0,0,0); 
+                   background-color: rgba(0,0,0, 0.4); 
+                   color: rgb(255, 255, 255);
+                   font-weight: bold;
+                   border-bottom-right-radius: 15px;
+                   border-bottom-left-radius: 15px;
+                   height: 70px;
+                   
+               }
+               .option {
+                 color: antiquewhite;
+               }
+               .price {
+                   font-size: 10px;
+                   font-style: italic;
+               }
+               .back-button {
+            border: none;
+            background-color: rgba(0, 0, 0, 0.092);
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+           margin-bottom: 90px;
+            cursor: pointer;
+            border-radius: 10px;
+            border: 1px solid rgb(0, 0, 0); 
+            cursor: pointer;
+            transition: background-color 0.1s ease;
+        }
+        .back-button:hover {
+            background-color: rgba(255, 255, 255, 0.553);
+        }
+
+.back {
+  display: flex;
+}
+.whole {
+  background-size: cover;
+}
+html, body {
+  height: 100%;
+}
+
+.full-height {
+  height: 100%;
+}
+
+                </style>
+        </head>
+        <body>
+          <main class="whole">
+            <div class="full-height">
+             
+            <div class="image-container">
+              <div class="back">
+              <a href="Thirdpage1.html"><button class="button" >Back</button></a>
+            <h1 class = "themes">THEMES</h1></div>
+            <hr>
+            <div class="responsive">
+              <div class="gallery">
+                  <img src="https://i.pinimg.com/originals/4c/36/6d/4c366d1ea223089cc6ba2b8d8b230694.jpg" alt="lucknowi theme">
+                </a>
+                <div class="desc">lucknowi Theme<br><input type="radio" id="yes" name="Theme" value="yes"></div>
+              </div>
+            </div>
+            
+            <div class="responsive">
+              <div class="gallery">
+                  <img src="https://i.pinimg.com/originals/1c/22/fa/1c22fa4fa5b25fd136e69a835d096e90.jpg" alt="Rajasthani theme">
+                </a>
+                <div class="desc">Rajasthani Theme<br><label class="Theme"><input type="radio" id="yes" name="Theme" value="yes"></div></label>
+              </div>
+            </div>
+
+            <div class="responsive">
+              <div class="gallery">
+                  <img src="https://i.pinimg.com/originals/b0/d0/23/b0d023343cef58cdeadc262f35ec9931.jpg" alt="Vintage">
+                </a>
+                <div class="desc">Vintage Theme<br><label class="Theme"><input type="radio" id="yes" name="Theme" value="yes"></div></label>
+              </div>
+                </div>
+
+            <div class="responsive">
+              <div class="gallery">
+                  <img src="https://i.pinimg.com/originals/5e/7d/4c/5e7d4c1bda197ec1e194327ccca37524.jpg" alt="Bollywood Theme">
+                </a>
+                <div class="desc">Bollywood Theme<br><label class="Theme"><input type="radio" id="yes" name="Theme" value="yes"></div></label>
+              </div>
+                </div>
+
+            <div class="responsive">
+              <div class="gallery">
+                  <img src="https://i.pinimg.com/originals/aa/21/d4/aa21d4a7dfa96108fc9ec4b85de32329.jpg" alt="Vegas Casino Theme">
+                </a>
+                <div class="desc">Vegas Casino Theme<br><label class="Theme"><input type="radio" id="yes" name="Theme" value="yes"></div></label>
+              </div>
+                </div>
+
+            <div class="responsive">
+              <div class="gallery">
+                  <img src="https://i.pinimg.com/originals/f3/58/f2/f358f2ff109a48fa69d2ed608173021a.jpg" alt="Indian Traditional Theme">
+                </a>
+                <div class="desc">Indian Traditional Theme<br><label class="Theme"><input type="radio" id="yes" name="Theme" value="yes"></div></label>
+              </div>
+            </div>
+
+            
+            <div class="responsive">
+              <div class="gallery">
+                  <img src="https://media.istockphoto.com/id/1209943146/photo/outdoor-wedding-ceremony-in-the-summer.jpg?s=612x612&w=0&k=20&c=0wQiQ5vabLZBJNvUttruISQnfRdT6WIYasUcae2k2q0=" alt="Garden">
+                </a>
+                <div class="desc">Garden Theme<br><label class="Theme"><input type="radio" id="yes" name="Theme" value="yes"></div></label>
+              </div>
+                </div>
+
+                
+            <div class="responsive">
+              <div class="gallery">
+                  <img src="https://media.istockphoto.com/id/485732609/photo/wedding-set-up-in-phuket-thailand.jpg?s=612x612&w=0&k=20&c=Nc6tQcCca8Ye9lN7mx1PbpKW61NUvfIBBRf6CNpBDLg=" alt="Outdoor">
+                </a>
+                <div class="desc">Outdoor Theme<br><label class="Theme"><input type="radio" id="yes" name="Theme" value="yes"></div></label>
+              </div>
+                </div>
+
+                
+            <div class="responsive">
+              <div class="gallery">
+                  <img src="https://media.istockphoto.com/id/1319369022/photo/inside-view-of-umed-bhawan-palace-jodhpur-rajasthan-heritage-property-travel-destination.jpg?s=612x612&w=0&k=20&c=Nyvg9yef0g0zZ4dWmSeyry0dNZDWzjeyfDTlvlJOWcA=" alt="Royal">
+                </a>
+                <div class="desc">Royal Theme<br><label class="Theme"><input type="radio" id="yes" name="Theme" value="yes"></div></label>
+              </div>
+                </div>
+
+                
+            <div class="responsive">
+              <div class="gallery">
+                  <img src="https://media.istockphoto.com/id/1124853369/photo/beautiful-wedding-arch-on-the-beach.jpg?s=612x612&w=0&k=20&c=xTjCa9ig64mAg4B1d79Uf1g3-PdNxU3PNO4vyj2Jjrk=" alt="Vintage">
+                </a>
+                <div class="desc">Beach wedding Theme<br><label class="Theme"><input type="radio" id="yes" name="Theme" value="yes"></div></label>
+              </div>
+                </div>
+
+                
+            <div class="responsive">
+              <div class="gallery">
+                  <img src="https://media.istockphoto.com/id/1789529448/photo/close-up-of-floral-wedding-setty-back.jpg?s=612x612&w=0&k=20&c=_XPk5Qqu_0Y0bb7QiWZ66KuKS-ScvGUrxx7XXrB_Ofw=" alt="Golden light">
+                </a>
+                <div class="desc">Golden Theme<br><label class="Theme"><input type="radio" id="yes" name="Theme" value="yes"></div></label>
+              </div>
+                </div>
+
+                <div class="responsive">
+                  <div class="gallery">
+                      <img src="https://media.istockphoto.com/id/521802660/photo/table-setting-at-a-luxury-wedding-reception.jpg?s=612x612&w=0&k=20&c=xGYl48jjJlQz_GAr6vvxnCL6qt0rk5oIlnC2yiDA2qk=" alt="clasical">
+                    </a>
+                    <div class="desc">Clasical Theme<br><label class="Theme"><input type="radio" id="yes" name="Theme" value="yes"></div></label>
+                  </div>
+                    </div>
+                    <hr>
+                    <a href="Thirdpage1.html"><button class="button" >Submit</button></a>
+                  </div>
+                </div>
+                  </main>
+          </body>
+        </html>
