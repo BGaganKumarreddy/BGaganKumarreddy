@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Day Dream Creations</title>
+            <style>
+ div.gallery {
+  border: 1px solid #000000;
+  border-radius: 15px;
+  margin-bottom: 12px;
+  background-color: rgb(0, 0, 0, o.75);
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: 250px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+div.desc {
+  margin-top: -5px;
+  padding: 15px;
+  text-align: center;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+  border-radius: 20px;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+h1 {
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.4); 
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border: 3px solid #363636;
+    margin-left: 150px;
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px; 
+    border-radius: 10px;
+}
+.hr1 {
+    color:white;
+ 
+}
+.button {
+    margin-left: 710px;
+            border: none;
+            background-color: rgba(0, 0, 0, 0.127);
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 10px;
+            border: 1px solid rgb(0, 0, 0);
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.1s ease;
+        }
+        .button:hover {
+            background-color: rgba(255, 255, 255, 0.553);
+        }
+body {
+    background-image: url("https://cdn.pixabay.com/photo/2015/08/27/03/33/light-909409_640.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.desc {
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.75);
+    font-size: 30px;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.4); 
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    height: 80px;
+    
+}
+.option {
+  color: antiquewhite;
+}
+.price {
+    font-size: 10px;
+    font-style: italic;
+}
+.back-button {
+            border: none;
+            background-color: rgba(0, 0, 0, 0.059);
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+           margin-bottom: 90px;
+            border-radius: 10px;
+            border: 1px solid rgb(0, 0, 0); 
+            cursor: pointer;
+            transition: background-color 0.1s ease;
+}
+.back-button:hover {
+            background-color: rgba(255, 255, 255, 0.553);
+        }
+
+.back {
+  display: flex;
+}
+.whole {
+  background-size: cover;
+}
+html, body {
+  height: 100%;
+}
+
+.full-height {
+  height: 100%;
+}
+
+            </style>
+        </head>
+        <body>
+          <main class="whole">
+            <div class="full-height">
+          <div class="back">
+          <a href="Secondpage1.html"><button class="back-button" >Back</button></a>
+            <h1 class="destinations">SELECT YOUR DESTINATION</h1>
+            </div>
+<hr>
+            <div class="bg-images"></div>
+            <div class="responsive">
+                <div class="gallery">
+                    <img src="https://media.istockphoto.com/id/1225173869/photo/house-boat-anchored-in-lake-with-jungle-background-backwaters-kerala-india.jpg?s=612x612&w=0&k=20&c=uo-bsRQjhlT9AgeWBs_pkSvHQwStCelMC75EUpzwjHU=" alt="Kerala">
+                  </a>
+                  <div class="desc" >Kerala, INDIA<br><div class="price">(₹1.5lakhs - ₹5lakhs)</div><label class="destination"><input type="radio" id="yes" name="destination" value="yes"></label></div>
+                </div>
+              </div>
+            <div class="image-container">
+                
+                <div class="bg-images"></div>
+                <div class="responsive">
+                    <div class="gallery">
+                        <img src="https://media.istockphoto.com/id/534716373/photo/sunset-on-tropical-beach.jpg?s=612x612&w=0&k=20&c=8953qaYPfTB-6jtd1pCPXmDxIHQ_UH7gPknrJFu1-eA=" alt="Goa">
+                      </a>
+                      <div class="desc" >Goa, INDIA<br><div class="price">(₹2lakhs - ₹6lakhs)</div><label class="destination"><input type="radio" id="yes" name="destination" value="yes"></label></div>
+                    </div>
+                  </div>
+                <div class="image-container">
+   
+           
+                <div class="bg-images"></div>
+                <div class="responsive">
+                    <div class="gallery">
+                        <img src="https://cdn.pixabay.com/photo/2018/09/11/17/20/jaipur-3670085_640.jpg" alt="jaipur">
+                      </a>
+                      <div class="desc" >Jaipur, INDIA<br><div class="price">(₹3lakhs - ₹8lakhs)</div><label class="destination"><input type="radio" id="yes" name="destination" value="yes"></label></div>
+                    </div>
+                  </div>
+                <div class="image-container">
+                    
+           
+                    <div class="bg-images"></div>
+                    <div class="responsive">
+                        <div class="gallery">
+                            <img src="https://media.istockphoto.com/id/1406869055/photo/aerial-view-of-luxury-resort-in-maldives.jpg?s=612x612&w=0&k=20&c=DFVfkAGNGMsd2gR73v3De5KiFURcVs7CdSI2rJ8TzKU=" alt="maldives">
+                          </a>
+                          <div class="desc" >Maldives, INDIA<br><div class="price">(₹5lakhs - ₹10lakhs)</div><label class="destination"><input type="radio" id="yes" name="destination" value="yes"></label></div>
+                        </div>
+                      </div>
+                    <div class="image-container">
+                        <div class="bg-images"></div>
+                        <div class="responsive">
+                            <div class="gallery">
+                                <img src="https://media.istockphoto.com/id/475795759/photo/traditional-houses-of-navala-village-viti-levu-fiji.jpg?s=612x612&w=0&k=20&c=qfvVtCLBZHLfuBNb69KD1QMqz-qkZDu5-QiyR1A4bEw=" alt="fiji">
+                              </a>
+                              <div class="desc" >Fiji<br><div class="price">(₹20lakhs - ₹50lakhs)</div><label class="destination"><input type="radio" id="yes" name="destination" value="yes"></label></div>
+                            </div>
+                          </div>
+                        <div class="image-container">
+
+                            <div class="bg-images"></div>
+                            <div class="responsive">
+                                <div class="gallery">
+                                    <img src="https://media.istockphoto.com/id/675172642/photo/pura-ulun-danu-bratan-temple-in-bali.jpg?s=612x612&w=0&k=20&c=_MPdmDviIyhldqhf7t6s63C-bZbTGfNHMlJP9SIa8Y0=" alt="bali">
+                                  </a>
+                                  <div class="desc" >Bali, INDONESIA<br><div class="price">(₹30lakhs - ₹50lakhs)</div><label class="destination"><input type="radio" id="yes" name="destination" value="yes"></label></div>
+                                </div>
+                              </div>
+                            <div class="image-container">
+           
+                                <div class="bg-images"></div>
+                                <div class="responsive">
+                                    <div class="gallery">
+                                        <img src="https://media.istockphoto.com/id/1168208847/photo/paris-city-with-eiffel-tower.jpg?s=612x612&w=0&k=20&c=0exlJCRA3JMzmGdtJzhNJYQNK1amU8_qxlYKHNO5hI8=" alt="paris">
+                                      </a>
+                                      <div class="desc" >Paris, FRANCE<br><div class="price">(₹50lakhs - ₹1crore)</div><label class="destination"><input type="radio" id="yes" name="destination" value="yes"></label></div>
+                                    </div>
+                                  </div>
+                                <div class="image-container">
+                                          
+                                    <div class="bg-images"></div>
+                                    <div class="responsive">
+                                        <div class="gallery">
+                                            <img src="https://media.istockphoto.com/id/1289704703/photo/gorgeous-sunset-at-nai-harn-beach-tourists-on-phuket-island-thailand-indian-ocean.jpg?s=612x612&w=0&k=20&c=WZLy7ZoYdqMWzH2cDlYTKrcX7JroEndFAKhg3JHA52I=" alt="phuket">
+                                          </a>
+                                          <div class="desc" >Phuket, THAILAND<br><div class="price">(₹1crore - ₹2crore)</div><label class="destination"><input type="radio" id="yes" name="destination" value="yes"></label></div>
+                                        </div>
+                                      </div>
+                                    <div class="image-container">
+           
+                                    <div class="bg-images"></div>
+                                    <div class="responsive">
+                                        <div class="gallery">
+                                            <img src="https://media.istockphoto.com/id/891882280/photo/top-view-of-the-river-and-forest-in-autumn-season-at-arashiyama.jpg?s=612x612&w=0&k=20&c=vl2MQE6KqdX9q9JxGXtfIKeHS2ANpD44j9o6fr9WmLM=" alt="kyoto">
+                                          </a>
+                                          <div class="desc" >Kyoto, JAPAN<br><div class="price">(₹1crore - ₹3crore)</div><label class="destination"><input type="radio" id="yes" name="destination" value="yes"></label></div>
+                                        </div>
+                                      </div>
+                                    <div class="image-container">
+                                        
+                                        <div class="bg-images"></div>
+                                        <div class="responsive">
+                                            <div class="gallery">
+                                                <img src="https://media.istockphoto.com/id/183342824/photo/stylized-aerial-view-of-dubai-city.jpg?s=612x612&w=0&k=20&c=outZOT9DOF6lRhp9S6pXY-FHVt1_9yW3e4ToE2-S1N0=" alt="dubai">
+                                              </a>
+                                              <div class="desc" >Dubai, UAE<br><div class="price">(₹1crore - ₹3crore)</div><label class="destination"><input type="radio" id="yes" name="destination" value="yes"></label></div>
+                                            </div>
+                                          </div>
+                                        <div class="image-container">
+       
+                                            <div class="bg-images"></div>
+                                            <div class="responsive">
+                                                <div class="gallery">
+                                                    <img src="https://media.istockphoto.com/id/1096945212/photo/turquoise-cristal-water-pool-near-tulum.jpg?s=612x612&w=0&k=20&c=ChtY_EVtcJzd4KgJwZwFmRJVvq_KDOMna7ow64nEnWs=" alt="tulum">
+                                                  </a>
+                                                  <div class="desc" >Tulum, MEXICO<br><div class="price">(₹1crore - ₹3crore)</div><label class="destination"><input type="radio" id="yes" name="destination" value="yes"></label></div>
+                                                </div>
+                                              </div>
+                                            <div class="image-container">
+   
+                                                <div class="bg-images"></div>
+                                                <div class="responsive">
+                                                    <div class="gallery">
+                                                        <img src="https://media.istockphoto.com/id/585487404/photo/bora-bora-tahiti-mt-otemanu.jpg?s=612x612&w=0&k=20&c=Bu2OnXGXVip__Q5tYUBNPE-x7OVyA6I9WGo4LHDFz2w=" alt="bora bora">
+                                                      </a>
+                                                      <div class="desc" >Bora Bora, FRANCE<br><div class="price">(₹1crore - ₹4crore)</div><label class="destination"><input type="radio" id="yes" name="destination" value="yes"></label></div>
+                                                    </div>
+                                                  </div>
+                                                <div class="image-container">
+                                                            
+                                    <div class="bg-images"></div>
+                                    <div class="responsive">
+                                        <div class="gallery">
+                                            <img src="https://media.istockphoto.com/id/108310113/photo/tuscany-landscape.jpg?s=612x612&w=0&k=20&c=w_4kz9F-GxEn4gb3mx4hELg0vWkj3gLSbl_ZOMQv2B8=" alt="tuscany">
+                                          </a>
+                                          <div class="desc" >Tuscany, ITALY<br><div class="price">(₹1crore - ₹4crore)</div><label class="destination"><input type="radio" id="yes" name="destination" value="yes"></label></div>
+                                        </div>
+                                      </div>
+                                    <div class="image-container"></div>
+                   
+                                    <div class="bg-images"></div>
+                                    <div class="responsive">
+                                        <div class="gallery">
+                                            <img src="https://media.istockphoto.com/id/908964390/photo/oleander-flowers-and-villa-monastero-in-background-lake-como-varenna.jpg?s=612x612&w=0&k=20&c=L0LNcVgsks76ZfJIiNIrqK7Dnp8B40-uxjIShFHwoiY=" alt="lake como">
+                                          </a>
+                                          <div class="desc" >Lake Como,ITALY<br><div class="price">(₹1crore - ₹5crore)</div><label class="destination"><input type="radio" id="yes" name="destination" value="yes"></label></div>
+                                        </div>
+                                      </div>
+                                    <div class="image-container">
+               
+                                        <div class="bg-images"></div>
+                                        <div class="responsive">
+                                            <div class="gallery">
+                                                <img src="https://media.istockphoto.com/id/520408263/photo/cancun-beach-panorama-mexico.jpg?s=612x612&w=0&k=20&c=utaTTQUbdE21Ht4PAXHMxCh7n9fzTULiOZsKKAwKalM=" alt="cancum">
+                                              </a>
+                                              <div class="desc" >Cancun, MEXICO<br><div class="price">(₹1crore - ₹5crore)</div><label class="destination"><input type="radio" id="yes" name="destination" value="yes"></label></div>
+                                            </div>
+                                          </div>
+                                        <div class="image-container">
+                                                  
+                                    <div class="bg-images"></div>
+                                    <div class="responsive">
+                                        <div class="gallery">
+                                            <img src="https://media.istockphoto.com/id/1292647913/photo/vineyards-in-constantia-near-cape-town-south-africa.jpg?s=612x612&w=0&k=20&c=825Cwza81Agj-NPbkWGI3kS6g9MWZkSyL0JlK6jQBOw=" alt="capetown">
+                                          </a>
+                                          <div class="desc" >Cape Town, AFRICA<br><div class="price">(₹1crore - ₹5crore)</div><label class="destination"><input type="radio" id="yes" name="destination" value="yes"></label></div>
+                                        </div>
+                                      </div>
+                                    <div class="image-container">
+                                              
+                                    <div class="bg-images"></div>
+                                    <div class="responsive">
+                                        <div class="gallery">
+                                            <img src="https://media.istockphoto.com/id/1145450965/photo/santorini-island-greece.jpg?s=612x612&w=0&k=20&c=AY_kxRrkTjbDLhqpotxgW8CZp4ovEIM1tRdTrvXKcAM=" alt="santorini">
+                                          </a>
+                                          <div class="desc" >Santorini, GREECE<br><div class="price">(₹1crore - ₹5crore)</div><label class="destination"><input type="radio" id="yes" name="destination" value="yes"></label></div>
+                                        </div>
+                                      </div>
+                                    <div class="image-container">
+                   
+                                            <div class="bg-images"></div>
+                                            <div class="responsive">
+                                                <div class="gallery">
+                                                    <img src="https://media.istockphoto.com/id/1010828398/photo/machu-picchu-inca-ruins-peru.jpg?s=612x612&w=0&k=20&c=6G6MirKAUwCoKOsm0C-KjvCa3njsnlHVENadI0xyF30=" alt="machu pichu">
+                                                  </a>
+                                                  <div class="desc" >Machu Pichu, PERU<br><div class="price">(₹1crore - ₹6crore)</div><label class="destination"><input type="radio" id="yes" name="destination" value="yes"></label></div>
+                                                </div>
+                                              </div>
+                                            <div class="image-container">
+
+                                            <div class="bg-images"></div>
+                                            <div class="responsive">
+                                                <div class="gallery">
+                                                    <img src="https://media.istockphoto.com/id/1265900812/photo/aerial-view-of-london-and-the-tower-bridge.jpg?s=612x612&w=0&k=20&c=-2j6QgZyeveMcGzuWmgLYqC7zXTkcSBnayuZsDqs5KQ=" alt="england">
+                                                  </a>
+                                                  <div class="desc" >England, UK<br><div class="price">(₹1crore - ₹6crore)</div><label class="destination"><input type="radio" id="yes" name="destination" value="yes"></label></div>
+                                                </div>
+                                              </div>
+                                            <div class="image-container">
+       
+                                                <div class="bg-images"></div>
+                                                <div class="responsive">
+                                                    <div class="gallery">
+                                                        <img src="https://media.istockphoto.com/id/875273240/photo/spanish-cities-la-sagrada-familia-barcelona-golden-hour.jpg?s=612x612&w=0&k=20&c=vrNvOIrfD4RSprZ7kgYRAQ7GHaz7IlJVzGwxv0toQT0=" alt="barcellona">
+                                                      </a>
+                                                      <div class="desc" >Barcellona, SPAIN<br><div class="price">(₹1crore - ₹7crore)</div><label class="destination"><input type="radio" id="yes" name="destination" value="yes"></label></div>
+                                                    </div>
+                                                  </div>
+                                                <div class="image-container">
+                                               
+                                            <div class="bg-images"></div>
+                                            <div class="responsive">
+                                                <div class="gallery">
+                                                    <img src="https://media.istockphoto.com/id/1408727284/photo/napa-ca-downtown.jpg?s=612x612&w=0&k=20&c=XpQC_MQ_cW5rUlm-Mbwya6wOzrwOI9d_d3wbbv3CQDM=" alt="napa valley">
+                                                  </a>
+                                                  <div class="desc" >Napa Valley, USA<br><div class="price">(₹1crore - ₹7crore)</div><label class="destination"><input type="radio" id="yes" name="destination" value="yes"></label></div>
+                                                </div>
+                                              </div>
+                                            <div class="image-container">
+                   
+                                    <div class="bg-images"></div>
+                                    <div class="responsive">
+                                        <div class="gallery">
+                                            <img src="https://media.istockphoto.com/id/157404361/photo/the-rugged-napali-coastline-of-kauai-hawaii.jpg?s=612x612&w=0&k=20&c=tDMtQpE3cO1HnQOdi4t30kTOduta2owbiGLegc2hUEg=" alt="hawai">
+                                          </a>
+                                          <div class="desc" >Hawaii, USA<br><div class="price">(₹5crore - ₹8crore)</div><label class="destination"><input type="radio" id="yes" name="destination" value="yes"></label></div>
+                                        </div>
+                                      </div>
+                                    <div class="image-container">
+                                
+                                    <div class="bg-images"></div>
+                                    <div class="responsive">
+                                        <div class="gallery">
+                                            <img src="https://media.istockphoto.com/id/494545485/photo/new-york-city-aerial-skyline-at-dusk-usa.jpg?s=612x612&w=0&k=20&c=pp-geJ7mof2dhzc0OwpKREnbvs1yxoDJiAPufWrKHvs=" alt="newyork">
+                                          </a>
+                                          <div class="desc" >New York, USA<br><div class="price">(₹1crore - ₹10crore)</div><label class="destination"><input type="radio" id="yes" name="destination" value="yes"></label></div>
+                                        </div>
+                                      </div>
+                                    <div class="image-container">
+                                  
+ <div class="bg-images"></div>
+    <div class="responsive">
+      <div class="gallery">
+        <img src="https://media.istockphoto.com/id/480197161/photo/cruise-ship-with-wonderful-tropical-beach.jpg?s=612x612&w=0&k=20&c=FuGFtPf3SB0sDBL-7_opnDhr0PAORTUoj0qv0lvVTRU=" alt="crusie ship">
+          <div class="desc" >CRUISE SHIP<br><div class="price">(₹10crore - ₹15crore)</div><label class="destination"><input type="radio" id="yes" name="destination" value="yes"></label></div>
+         </div>
+       </div>
+     <div class="image-container">
+   <hr>
+       <a href="Secondpage1.html"><button class="button" >Submit</button></a>
+       </div>
+      </div>
+      </main>
+        </body>
+     </html> 
