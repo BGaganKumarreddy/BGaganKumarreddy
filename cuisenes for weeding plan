@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Day Dream Creations</title>
+            <style>
+              div.gallery {
+  border: 1px solid #000000;
+  border-radius: 15px;
+  margin-bottom: 12px;
+  background-color: rgb(0, 0, 0, o.75);
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+  border-radius: 20px;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+h1 {
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.4); 
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border: 3px solid #363636;
+    margin-left: 150px;
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px; 
+    border-radius: 10px;
+}
+.hr1 {
+    color:white;
+ 
+}
+.submit-button {
+    margin-left: 710px;
+    background-color:antiquewhite;
+            border: none;
+            background-color: rgba(255, 255, 255, 0.5);
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 10px;
+            border: 1px solid rgb(0, 0, 0);
+            transition: background-color 0.1s ease;
+}
+
+body {
+    background-image: url("https://cdn.pixabay.com/photo/2015/08/27/03/33/light-909409_640.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.desc {
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.75);
+    font-size: 30px;
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.4); 
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    height: 70px;
+    margin-top: -5px;
+
+    
+}
+.option {
+  color: antiquewhite;
+}
+.back-button {
+            border: none;
+            background-color: rgba(255, 255, 255, 0.5);
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+           margin-bottom: 90px;
+            cursor: pointer;
+            border-radius: 10px;
+            border: 1px solid rgb(0, 0, 0); 
+            transition: background-color 0.1s ease;
+}
+.back {
+  display: flex;
+}
+.whole {
+  background-size: cover;
+}
+html, body {
+  height: 100%;
+}
+
+.full-height {
+  height: 100%;
+}
+
+            </style>
+        </head>
+        <body>
+          <main class="whole">
+            <div class="full-height">
+          <div class="back">
+          <a href="Fourthpage1.html"><button class="back-button" >Back</button></a>
+            <h1>SELECT YOUR FAVOURITE CUSINE</h1></div>
+            <hr>
+            <div class="bg-images"></div>
+            <div class="responsive">
+                <div class="gallery">
+                  
+                    <img src="https://cdn.pixabay.com/photo/2019/09/05/19/58/nachos-4454941_640.jpg" alt="Mexican Cusine">
+                  </a>
+                  <div class="desc" >Mexican Cusine<br><input type="radio" id="select" name="Mexican Cusine" value="yes"></div>
+                </div>
+              </div>
+              
+              <div class="responsive">
+                <div class="gallery">
+                    <img src="https://media.istockphoto.com/id/1158623408/photo/indian-hindu-veg-thali-food-platter-selective-focus.jpg?s=612x612&w=0&k=20&c=MOm3sfIfL22URV6juSCxpA3yfr4O63yJUV5vitufR7Y=" alt="Indian Crusine">
+                  </a>
+                  <div class="desc">Indian Cusine<br><input type="radio" id="yes" name="Indian Cusine" value="yes"></div>
+                </div>
+              </div>
+              
+              <div class="responsive">
+                <div class="gallery">
+                    <img src="https://cdn.pixabay.com/photo/2021/02/08/12/40/lasagna-5994612_640.jpg" alt="Italian Cusine">
+                  </a>
+                  <div class="desc">Italian Cusine<br><input type="radio" id="yes" name="Italian Cusine" value="yes"></div>
+                </div>
+              </div>
+              
+              <div class="responsive">
+                <div class="gallery">
+                    <img src="https://cdn.pixabay.com/photo/2020/04/04/15/07/sushi-5002639_640.jpg" alt="Japaneese Cusine">
+                  </a>
+                  <div class="desc">Japaneese Cusine<br><input type="radio" id="yes" name="Japanese Cusine" value="yes"></div>
+                </div>
+              </div>
+         
+              <div class="responsive">
+                <div class="gallery">
+                    <img src="https://cdn.pixabay.com/photo/2015/09/04/10/40/pad-thai-921884_1280.jpg" alt="Thai Cusine">
+                  </a>
+                  <div class="desc">Thai Cusine<br><input type="radio" id="yes" name="Thai Cusine" value="yes"></div>
+                </div>
+
+              </div>
+              <div class="responsive">
+                <div class="gallery">
+                 
+                    <img src="https://cdn.pixabay.com/photo/2016/12/27/09/26/ohhyangjangyuk-1933565_640.jpg" alt="Chinese Cusine">
+                  </a>
+                  <div class="desc">Chinese Cusine<br><input type="radio" id="yes" name="Chinese Cusine" value="yes"></div>
+                </div>
+              </div>
+
+              <div class="responsive">
+                <div class="gallery">
+      
+                    <img src="https://cdn.pixabay.com/photo/2016/01/29/14/06/paella-1168008_640.jpg" alt="Spanish Cusine">
+                  </a>
+                  <div class="desc">Spanish Cusine<br><input type="radio" id="yes" name="Spanish Cusine" value="yes"></div>
+                </div>
+              </div>
+
+              <div class="responsive">
+                <div class="gallery">
+                    <img src="https://cdn.pixabay.com/photo/2016/09/06/14/23/authentic-greek-1649223_640.jpg" alt="Greek Cusine">
+                  </a>
+                  <div class="desc">Greek Cusine<br><input type="radio" id="yes" name="Greek Cusine" value="yes"></div>
+                </div>
+              </div>
+       
+
+              <div class="responsive">
+                <div class="gallery">
+                    <img src="https://cdn.pixabay.com/photo/2019/04/22/08/37/burger-4145977_640.jpg" alt="American Cusine">
+                  </a>
+                  <div class="desc">American Cusine<br><input type="radio" id="yes" name="American Cusine" value="yes"></div>
+                </div>
+              </div>
+
+              <div class="responsive">
+                <div class="gallery">
+                    <img src="https://cdn.pixabay.com/photo/2016/11/20/09/06/bowl-1842294_640.jpg" alt="French Cusine">
+                  </a>
+                  <div class="desc">French Cusine<br><input type="radio" id="yes" name="French Cusine" value="yes"></div>
+                </div>
+              </div>
+
+              <div class="responsive">
+                <div class="gallery">
+                    <img src="https://cdn.pixabay.com/photo/2015/06/26/02/58/korean-food-822092_640.jpg" alt="Korean Crusine">
+                  </a>
+                  <div class="desc">korean Cusine<br><input type="radio" id="yes" name="Korean Crusine" value="yes"></div>
+                </div>
+              </div>
+
+              <div class="responsive">
+                <div class="gallery">
+                    <img src="https://cdn.pixabay.com/photo/2014/04/29/13/25/shish-kebab-334386_640.jpg" alt="Russian Crusine">
+                  </a>
+                  <div class="desc">Russian Cusine<br><input class="option" type="radio" id="yes" name="Russian Crusine" value="yes"></div>
+                </div>
+              <br>
+            </div>
+            </div>
+            <hr>
+            <a href="Fourthpage1.html"><button class="submit-button" >Submit</button></a>
+          </div>
+        </div>
+          </main>
+              </body>
+              </html>
+
+        
+              
+              
+
+
+
+          
